@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ingresosFragment"
+        android:icon="@drawable/ic_income"
+        android:title="Ingresos" />
+    <item
+        android:id="@+id/gastosFragment"
+        android:icon="@drawable/ic_expense"
+        android:title="Gastos" />
+    <item
+        android:id="@+id/ahorroFragment"
+        android:icon="@drawable/ic_savings"
+        android:title="Ahorro" />
+</menu>

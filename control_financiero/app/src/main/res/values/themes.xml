@@ -1,0 +1,8 @@
+<!-- res/values/themes.xml -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Control_financiero" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Colores, fuentes, iconos, etc. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorSecondary">@color/teal_200</item>
+    </style>
+</resources>

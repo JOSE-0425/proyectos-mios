@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ingresosFragment">
+
+    <fragment
+        android:id="@+id/ingresosFragment"
+        android:name="com.jarb_studio.control_financiero.IngresosFragment"
+        android:label="Ingresos"
+        tools:layout="@layout/fragment_ingresos">
+        <action
+            android:id="@+id/action_ingresosFragment_to_gastosFragment"
+            app:destination="@id/gastosFragment" /> </fragment>
+
+    <fragment
+        android:id="@+id/gastosFragment"
+        android:name="com.jarb_studio.control_financiero.GastosFragment"
+        android:label="Gastos"
+        tools:layout="@layout/fragment_gastos">
+    </fragment>
+
+    <fragment
+        android:id="@+id/ahorroFragment"
+        android:name="com.jarb_studio.control_financiero.AhorroFragment"
+        android:label="Ahorro"
+        tools:layout="@layout/fragment_ahorro" />
+
+</navigation>
